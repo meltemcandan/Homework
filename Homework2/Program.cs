@@ -18,6 +18,7 @@ namespace Homework2
 
         public static void NotEverage()
         {
+            //Kullanıcıdan vize ve final notları istenecek girilen notların ortalaması 60' dan büyük ise başarılı küçük ise başarısız mesajı verilecek.
             double vize, final, sonuc;
             Console.Write("Vize Notunuzu Giriniz: ");
             vize = Convert.ToDouble(Console.ReadLine());
@@ -37,6 +38,7 @@ namespace Homework2
         }
         public static void UserSignin()
         {
+            //Kullanıcıdan kullanıcı adı ve parola girmesi istenecek doğru girildiğine giriş başarılı yanlış girildiğinde giriş başarısız mesajı verilecek.
             Console.Write("Kullanıcı Adını Giriniz: ");
             string userName = Console.ReadLine();
 
@@ -55,7 +57,7 @@ namespace Homework2
             Console.ReadLine();
         }
         public static void Solger()
-        {
+        {//Kullanıcıdan yaş ve cinsiyet bilgisine göre askere gidip gidemeyeceği mesajı verilecek.
             Console.WriteLine("Cinsiyetinizi Giriniz= ");
             string Gender = Console.ReadLine();
             Console.WriteLine("Yaşınızı Giriniz= ");
@@ -73,6 +75,7 @@ namespace Homework2
         }
         public static void Price()
         {
+            //Kullanıcıdan iki ürün fiyatı girildiğinde toplam fiyat 200 Tl'den büyükse 2. ürün üzerinden %25 indirim uygulanacak.
             Console.Write("Birinci Ürünün Fiyatını Giriniz= ");
             double Urun1 = Convert.ToDouble(Console.ReadLine());
             Console.Write("İkinci  Ürünün Fiyatını Giriniz= ");
