@@ -12,6 +12,7 @@ namespace Homework2
         {
             //NotEverage();
             //UserSignin();
+            //Solger();
         }
 
         public static void NotEverage()
@@ -52,5 +53,27 @@ namespace Homework2
             }
             Console.ReadLine();
         }
+
+
+        public static void Solger()
+        {
+            Console.WriteLine("Cinsiyetinizi Giriniz= ");
+            string Gender=Console.ReadLine();   
+            Console.WriteLine("Yaşınızı Giriniz= ");
+            Byte Age = Convert.ToByte(Console.ReadLine());
+
+            if (Gender.ToLower() == "erkek" && Age>=18)
+            {
+                Console.WriteLine("Askere Gidebilir");
+            }
+            else
+            {
+                Console.WriteLine("Askere Gidemez");
+            }
+            Console.ReadLine();      
+        }
+
+
     }
+
 }
