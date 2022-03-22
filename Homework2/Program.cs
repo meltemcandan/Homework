@@ -13,6 +13,7 @@ namespace Homework2
             //NotEverage();
             //UserSignin();
             //Solger();
+            //Price();
         }
 
         public static void NotEverage()
@@ -53,16 +54,14 @@ namespace Homework2
             }
             Console.ReadLine();
         }
-
-
         public static void Solger()
         {
             Console.WriteLine("Cinsiyetinizi Giriniz= ");
-            string Gender=Console.ReadLine();   
+            string Gender = Console.ReadLine();
             Console.WriteLine("Yaşınızı Giriniz= ");
             Byte Age = Convert.ToByte(Console.ReadLine());
 
-            if (Gender.ToLower() == "erkek" && Age>=18)
+            if (Gender.ToLower() == "erkek" && Age >= 18)
             {
                 Console.WriteLine("Askere Gidebilir");
             }
@@ -70,9 +69,30 @@ namespace Homework2
             {
                 Console.WriteLine("Askere Gidemez");
             }
-            Console.ReadLine();      
+            Console.ReadLine();
         }
-
+        public static void Price()
+        {
+            Console.Write("Birinci Ürünün Fiyatını Giriniz= ");
+            double Urun1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("İkinci  Ürünün Fiyatını Giriniz= ");
+            double Urun2 = Convert.ToDouble(Console.ReadLine());
+            double Toplam = Urun1 + Urun2;
+            
+            if (Toplam > 200)
+            {
+                Toplam -= Urun2 * 0.25;
+                Console.WriteLine("İndirimli Toplam Fiyat= " + Toplam);
+            }
+            else
+            {
+                Console.WriteLine("Normal Toplam Fiyat= " + Toplam);
+            }
+            Console.ReadLine();
+          
+            
+               
+        }
 
     }
 
