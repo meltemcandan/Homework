@@ -10,7 +10,8 @@ namespace Homework2
     {
         static void Main(string[] args)
         {
-            NotEverage();
+            //NotEverage();
+            //UserSignin();
         }
 
         public static void NotEverage()
@@ -29,6 +30,25 @@ namespace Homework2
             else
             {
                 Console.WriteLine("Başarısız");
+            }
+            Console.ReadLine();
+        }
+        public static void UserSignin()
+        {
+            Console.Write("Kullanıcı Adını Giriniz: ");
+            string userName = Console.ReadLine();
+
+            Console.Write("Parolanızı Giriniz: ");
+            int password = Convert.ToInt32(Console.ReadLine());
+
+
+            if (userName.ToLower() == "meltem" && password == 1234)
+            {
+                Console.WriteLine("Giriş Başarılı");
+            }
+            else
+            {
+                Console.WriteLine("Giriş Başarısız");
             }
             Console.ReadLine();
         }
