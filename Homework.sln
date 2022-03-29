@@ -9,11 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Home
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework3", "Homework3\Homework3.csproj", "{CA23CE69-57A3-417F-9CA1-6D304C1663B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "Homework4\Homework4.csproj", "{86ABDF62-A274-457F-BD36-3C345DFF0296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework4", "Homework4\Homework4.csproj", "{86ABDF62-A274-457F-BD36-3C345DFF0296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework5", "Homework5\Homework5.csproj", "{48AC227D-3873-4E20-A6C4-B665033E3804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework5", "Homework5\Homework5.csproj", "{48AC227D-3873-4E20-A6C4-B665033E3804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6", "Homework6\Homework6.csproj", "{76ADD24B-7981-4C03-A28D-D1175846011A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework6", "Homework6\Homework6.csproj", "{76ADD24B-7981-4C03-A28D-D1175846011A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework7", "Homework7\Homework7.csproj", "{D392A22B-A724-421D-A86B-888887E7F653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{76ADD24B-7981-4C03-A28D-D1175846011A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76ADD24B-7981-4C03-A28D-D1175846011A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76ADD24B-7981-4C03-A28D-D1175846011A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D392A22B-A724-421D-A86B-888887E7F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D392A22B-A724-421D-A86B-888887E7F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D392A22B-A724-421D-A86B-888887E7F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D392A22B-A724-421D-A86B-888887E7F653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
