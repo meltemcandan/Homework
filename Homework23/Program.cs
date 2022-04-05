@@ -22,7 +22,7 @@ namespace Homework23
 
             if (kalinanSure>1)
             {
-                for (double i = 1; i <= kalinanSure; i++)
+                for (int i = 1; i <= kalinanSure; i++)
                 {
                     if (i==1)
                     {
@@ -38,17 +38,15 @@ namespace Homework23
                         {
                             Console.WriteLine(odenecekTutar = (i * 6.5));
                         }
-
                     }
                     else
                     {
                         kalinanSure-=1;
                         
-
                         if (aracTipi == 1)
-                            
                         {
-                            Console.WriteLine( odenecekTutar += kalinanSure * 1.20 * 5);
+                            odenecekTutar = odenecekTutar + Convert.ToDouble(kalinanSure * 1.20 * 5);
+                            Console.WriteLine();
                         }
                         else if (aracTipi == 2)
                         {
@@ -58,11 +56,8 @@ namespace Homework23
                         {
                             Console.WriteLine(odenecekTutar += kalinanSure* 6.5 * 1.25);
                         }
-
                     }
-                }
-                
-                               
+                }        
             }
             else
             {
