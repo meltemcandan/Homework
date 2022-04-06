@@ -8,7 +8,7 @@ namespace Homework23
         {
             // Bir otoparka park eden taksinin 1 saati 5TL, minibüsün 1 saati 6TL, ticari aracın 1 saati 6.5TL dir. Taksi 1 saatten sonraki her saat başı için %20 daha fazla, minibüs 1 saatten sonraki her saat başı için toplamda %21.5 ve ticari araç 1 saatten sonraki her saat başı için toplamda %25 daha fazla ödeme yapmaktadır. Buna göre  girilen araba tipi ve kalınan saat bilgisi girildikten sonra ekrana ödenecek otopark ücretini hesaplayan programın kodlarını yazınız.
 
-            double odenecekTutar;
+            double odenecekTutar=0;
             int kalinanSure=0;
             int aracTipi = 0;
             
@@ -17,7 +17,7 @@ namespace Homework23
             Console.WriteLine("Ticari Araç: 3");
             Console.WriteLine("Lütfen araç tipini seçiniz: ");
             aracTipi = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Lütfen kalınan süreyi giriniz: ");
+            Console.WriteLine("Lütfen saat cinsinden kalınan süreyi giriniz: ");
             kalinanSure = Convert.ToInt32(Console.ReadLine());
 
             if (kalinanSure>1)
