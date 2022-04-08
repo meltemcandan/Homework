@@ -6,7 +6,13 @@ namespace Homework29
     {
         static void Main(string[] args)
         {
-            
+            //Girilen String ifadede boşluk karakterine kadar olan kısmı yazdıran program
+            string metin;
+            Console.Write("Metni Giriniz : ");
+            metin = Console.ReadLine();
+            int no = metin.IndexOf(' ');
+            Console.WriteLine(metin.Substring(0, no));
+            Console.ReadLine();
 
         }
 
